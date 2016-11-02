@@ -28,4 +28,4 @@ until abs(t)<eps;
 writeln('S = ',S:15);
 readln
 end.
-
+// Edit 02.11.16 16:40
