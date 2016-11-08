@@ -10,8 +10,18 @@ Classes;
 var x,t,s,eps:real;k:integer;
 begin
 writeln('Enter "x"');
+case key of 
+'0'..'9','.',#8:; 
+',':key:='.'; 
+#13:Button1.SetFocus; 
+else key:=#0; 
 readln(x);
 writeln('Enter "eps"');
+case key of 
+'0'..'9','.',#8:; 
+',':key:='.'; 
+#13:Button1.SetFocus; 
+else key:=#0; 
 readln(eps);
 k:=0;
 t:=1;
